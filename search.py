@@ -127,13 +127,15 @@ def main() -> None:
     The results are written to the shared Google Sheet so downstream tooling can work
     with the freshest search snapshot.
     """
-    query = SEARCH_QUERY
+    query = "XRP"
 
     markets = get_markets_for_query(query)
 
     if not markets:
         print("No markets found for the query.")
         return
+
+    print(markets)
 
     # sync_markets_to_sheet(markets, query)
     # print(f"Wrote {len(markets)} markets to the sheet for query '{query}'.")
