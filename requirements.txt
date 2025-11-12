@@ -1,0 +1,6 @@
+requests
+py-clob-client
+eth-account
+web3
+toml
+
