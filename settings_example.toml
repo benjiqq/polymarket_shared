@@ -1,0 +1,18 @@
+# Polymarket Trading Configuration
+# DO NOT COMMIT THIS FILE TO GIT!
+
+[account]
+# Your private key (export from reveal.polymarket.com or from your Web3 Application)
+private_key = ""
+
+# Your Polymarket proxy address (the address you deposit/send USDC to fund your account)
+# This is listed below your profile picture when using the Polymarket site
+proxy_address = ""
+
+[trading]
+# Chain ID (137 for Polygon)
+chain_id = 137
+
+# Polymarket CLOB endpoint
+clob_endpoint = "https://clob.polymarket.com"
+
